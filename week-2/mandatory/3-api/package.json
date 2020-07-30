@@ -1,0 +1,22 @@
+{
+  "name": "3-api",
+  "version": "1.0.0",
+  "description": "cyf-ecommerce-api",
+  "main": "cyf-ecommerce-api",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cyf-ecommerce-api.js",
+    "dev": "nodemon cyf-ecommerce-api.js",
+    "debug": "node --nolazy --inspect-brk=3000 server.js"
+  },
+  "author": "Thiago Luiz Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.3.0",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
